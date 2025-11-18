@@ -1,121 +1,79 @@
 {
-  "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
-  "name": "Mint Starter Kit",
-  "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
-  },
-  "favicon": "/favicon.svg",
-  "navigation": {
-    "tabs": [
-      {
-        "tab": "Guides",
-        "groups": [
-          {
-            "group": "Central de Ajuda",
-            "pages": [
-              "index",
-              "central/criando-seu-produto"
-            ]
-          },
-          {
-            "group": "Customization",
-            "pages": [
-              "essentials/settings",
-              "essentials/navigation"
-            ]
-          },
-          {
-            "group": "Writing content",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
-            ]
-          },
-          {
-            "group": "AI tools",
-            "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "API reference",
-        "groups": [
-          {
-            "group": "API documentation",
-            "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
-            ]
-          }
-        ]
-      }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
+    "$schema": "https://mintlify.com/docs.json",
+    "theme": "mint",
+    "name": "Sellyo Docs",
+    "colors": {
+        "primary": "#2A3EF4",
+        "light": "#E4E5F2",
+        "dark": "#0E0F28"
+    },
+    "favicon": "/favicon.svg",
+    "navigation": {
+        "tabs": [
+            {
+                "tab": "Guias",
+                "groups": [
+                    {
+                        "group": "Introdução",
+                        "pages": [
+                            "index",
+                            "central/criando-sua-conta",
+                            "central/criando-seu-produto",
+                            "central/como-funcionam-as-vendas",
+                            "central/obter-link-checkout"
+                        ]
+                    }
+                ]
+            },
+            {
+                "tab": "Referência",
+                "groups": [
+                    {
+                        "group": "Documentação API",
+                        "pages": [
+                            "api-reference/introduction"
+                        ]
+                    },
+                    {
+                        "group": "Endpoint examples",
+                        "pages": [
+                            "api-reference/endpoint/get",
+                            "api-reference/endpoint/create",
+                            "api-reference/endpoint/delete",
+                            "api-reference/endpoint/webhook"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "logo": {
+            "light": "/logo/light.svg",
+            "dark": "/logo/dark.svg"
         },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
+        "navbar": {
+            "links": [
+                {
+                    "label": "Suporte",
+                    "href": "mailto:infoprodutor@sellyo.com.br"
+                }
+            ],
+            "primary": {
+                "type": "button",
+                "label": "Dashboard",
+                "href": "https://app.sellyo.com.br"
+            }
+        },
+        "contextual": {
+            "options": [
+                "copy",
+                "view",
+                "chatgpt",
+                "claude",
+                "perplexity",
+                "mcp",
+                "cursor",
+                "vscode"
+            ]
         }
-      ]
     }
-  },
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
-  },
-  "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
-      }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
-    }
-  },
-  "contextual": {
-    "options": [
-      "copy",
-      "view",
-      "chatgpt",
-      "claude",
-      "perplexity",
-      "mcp",
-      "cursor",
-      "vscode"
-    ]
-  },
-  "footer": {
-    "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
-    }
-  }
 }
