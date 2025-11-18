@@ -14,11 +14,10 @@
         "tab": "Guides",
         "groups": [
           {
-            "group": "Getting started",
+            "group": "Central de Ajuda",
             "pages": [
               "index",
-              "quickstart",
-              "development"
+              "central/criando-seu-produto"
             ]
           },
           {
@@ -102,15 +101,15 @@
   },
   "contextual": {
     "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
-   ]
+      "copy",
+      "view",
+      "chatgpt",
+      "claude",
+      "perplexity",
+      "mcp",
+      "cursor",
+      "vscode"
+    ]
   },
   "footer": {
     "socials": {
